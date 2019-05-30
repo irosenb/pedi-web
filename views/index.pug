@@ -2,7 +2,9 @@ extends layout
 
 block content
   .index
-    h1= title
+    .title
+      img.icon(src='/images/icon-web.png')
+      h1= title
     p An app for pedicabs
-    a Download on the App Store 
-      img(src="/images/app-store.png")
+    a(href='https://appstore.com/')
+      img.download(src="/images/app-store.png")

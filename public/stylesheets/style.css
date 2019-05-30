@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px Lato, Helvetica, Arial, sans-serif;
   background-color: #897BD3;
 }
 
@@ -10,5 +10,24 @@ a {
 
 .index {
   text-align: center;
-  
+  color: white;
+}
+
+.index h1 {
+  font-size: 60px;
+  display: inline;
+}
+
+.index p {
+  font-size: 44px;
+}
+
+.download {
+  height: 95px;
+  width: 320px;
+}
+
+.icon {
+  height: 119px;
+  width: 154px;
 }
